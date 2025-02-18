@@ -61,3 +61,15 @@ div{
     background-color: blue;
     flex: 1;
 }
+
+button{
+    background-color: #596D48;
+}
+
+.mt{
+    height: 10%;
+}
+
+.mb{
+    height: 90%;
+}
