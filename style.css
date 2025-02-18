@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: norse;
+    font-family: sans-serif;
     margin: 0px;
 }
 
@@ -28,6 +28,7 @@ div{
 }
 
 .odin{
+    font-family: norse;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,13 +75,16 @@ div{
 .button{
     margin-left: 2.5%;
     margin-top: 2%;
+    height: 15%;
 }
 button{
     background-color: #596D48;
     color: white;
     border-radius: 8px;
     border: none;
-    font-size: 32px;
+    font-size: 16px;
+    width: 15%;
+    height: 100%;
 
 }
 
@@ -107,6 +111,14 @@ button{
 
 input{
     margin-bottom: 25%;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+input:focus{
+    outline-color: blue;
 }
 
 .t1{
@@ -122,4 +134,8 @@ input{
 
 input, label{
     display: block;
+}
+
+a{
+    color: #596D48;
 }
