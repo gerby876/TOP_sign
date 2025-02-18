@@ -25,6 +25,8 @@ div{
     background: url(background.jpg);
     background-size: cover;
     flex: 1;
+    color: white;
+    position: relative;
 }
 
 .odin{
@@ -143,6 +145,17 @@ input, label{
     display: block;
 }
 
-a{
+.in{
     color: #596D48;
+}
+
+.pic{
+    color: white;
+}
+
+.credit{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
