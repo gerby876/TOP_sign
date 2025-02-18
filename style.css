@@ -47,7 +47,7 @@ div{
 }
 
 .top{
-    background-color: red;
+    background-color: #e0e0e0;
     font-size: 32px;
     flex: 1;
     display: flex;
@@ -62,12 +62,26 @@ div{
 }
 
 .bottom{
-    background-color: blue;
     flex: 1;
+    background-color: #e0e0e0;
 }
 
+.log{
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+.button{
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
 button{
     background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 32px;
+
 }
 
 .mt{
