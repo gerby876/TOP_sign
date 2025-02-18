@@ -84,25 +84,28 @@ button{
 }
 
 .midl{
-    width: 100px;
     margin-left: 2.5%;
 }
 
 .midr{
-    width: 100px;
     margin-left: 10%;
 }
 
 input{
-    margin-bottom: 40%;
+    margin-bottom: 25%;
 }
 
 .t1{
-    border: solid;
     margin-left: 2.5%;
+    margin-right: 43%;
+    margin-bottom: 2%;
 }
 
 .t2{
-    border: solid;
-    margin-left:2.5%
+    margin-left:2.5%;
+    margin-bottom: 2%;
+}
+
+input, label{
+    display: block;
 }
